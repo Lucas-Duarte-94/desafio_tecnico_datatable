@@ -22,3 +22,7 @@
   display: flex;
   padding-left: 2rem;
 }
+
+h3 {
+  font-family: 'Roboto Mono', monospace;
+}

@@ -1,7 +1,7 @@
 import Header from '../Header';
 import './styles.css';
 
-function DefaultLayout({ children }) {
+function DefaultLayout({ children }) { 
   return (
     <>
       <Header />

@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+td {
+  font-size: 14px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+table {
+  margin: 16px;
+  border: 1px solid #ddd;
+  border-collapse: separate;
+  border-radius: 8px;
+  border-spacing: 0px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

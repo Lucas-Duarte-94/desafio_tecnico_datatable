@@ -1,0 +1,90 @@
+.table_content {
+    margin-top: 16px;
+    border-radius: 8px;
+    border: 1px solid #b7b7b7;
+    width: 100%;
+}
+
+.title {
+    background: #F0F0F0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 55px;
+    
+    display: flex;
+}
+
+h1 {
+    line-height: 26px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    margin: 12.5px 0 12.5px 10px;
+}
+
+th {
+    background-color: #F0F0F0;
+    border: 1px solid #dddddd;
+    border-top: 0;
+}
+
+.server_table tr:first-child th {
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+.server_table th:first-child {
+    border-top-left-radius: 8px;
+    border-left: 0;
+}
+
+.server_table th:last-child {
+    border-top-right-radius: 8px;
+    border-right: 0;
+}
+
+.server_table td:first-child {
+    border-left: 0;
+}
+
+.server_table td:last-child {
+    border-right: 0;
+}
+
+.server_table tr:last-child td {
+    border-bottom: 0;
+}
+
+.other_values {
+    white-space: nowrap;
+    width: 195px;
+    text-align: center;
+}
+
+.select_class {
+    white-space: nowrap;
+    min-width: 87px;
+    height: 40px;
+    text-align: center;
+}
+
+td {
+    justify-content: center;
+    align-self: center;
+    border: 1px solid #dddddd;
+}
+
+.non-checked {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #000000;
+    display: inline-block;
+}
+
+.checked {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #000000;
+    background-color: #b7b7b7;
+    display: inline-block;
+}
