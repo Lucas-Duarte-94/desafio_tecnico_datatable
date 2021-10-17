@@ -24,8 +24,6 @@ export function DataContextProvider({children}) {
                 }
             })
             setData(objectMapped);
-
-            return dados.data
         }
         getData()
 
